@@ -1,8 +1,8 @@
-### Linear Regression - Predicting valence score of Spotify songs
+## Linear Regression - Predicting valence score of Spotify songs
 
 The dataset used was taken from the Kaggle platform , https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks?select=tracks.csv. This dataset consists of records related to various songs from the Spotify platform. The song features were analyzed to gain useful insights about various songs. 
 
-## Below steps were applied on the dataset:
+### Below steps were applied on the dataset:
 
 1. Data Cleaning and Data Analysis:
 	Exploratory data analysis was performed on the dataset using R and graphs such as histograms, correlation plots, box plots were generated to study the distribution of features, 	detect outlier values and find positively or negatively correlated features.
