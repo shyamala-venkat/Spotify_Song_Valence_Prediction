@@ -13,21 +13,30 @@ The dataset used was taken from the Kaggle platform , https://www.kaggle.com/dat
 	Linear regression model was built to predict the song valence score, a measure of happiness in the songs using several numerical features of the songs.
 	Forward selection method was used to select the best features which significantly contributed in the prediction. R2 metric was used to validate the accuracy of the model.
 
-Results:	 							
+### Results:	 							
 The below insights were generated after analyzing the Spotify dataset: 								
-	The song writers prefer to compose the songs in major mode than the minor mode as the no. of songs in major mode is greater that of minor mode over the years 1930-2021.								
-	The keys C and G are the most used keys for composing the songs in the decades 1930s - 2020s.							
- 	The average duration or length of the songs is expected to approach below 3.5 mins as there is a downward trend observed in the last 20 years 2000-2021.							
-	Most popular songs are slightly shorter in duration than the least popular songs. This highlights a fact that the attention span of the average music consumer is falling and it 	suggests that shorter songs have a higher chance of gaining more attention and can reach the majority of the audience.								
-	Music has become more energetic and loud over time.							
-	Electronic instruments are mostly used in the songs than the acoustic instruments.								
-	The song positivity (song valence) is decreasing from the decade 1980s.
-	The speechiness attribute of the songs is increasing in the last 20 years and this indicates the rise in the number of audio podcasts in the Spotify platform.
-	A common pattern observed in the top 1000 popular songs released in the years 2000-2021 : high energy, danceability,loudness , less speechiness, liveness, acousticness and neutral valence score.
+	1. The song writers prefer to compose the songs in major mode than the minor mode as the no. of songs in major mode is greater that of minor mode over the years 1930-2021.
+ 
+ 	2. The keys C and G are the most used keys for composing the songs in the decades 1930s - 2020s.
+ 
+ 	3. The average duration or length of the songs is expected to approach below 3.5 mins as there is a downward trend observed in the last 20 years 2000-2021.
+  
+  	4. Most popular songs are slightly shorter in duration than the least popular songs. This highlights a fact that the attention span of the average music consumer is falling and it 	suggests that shorter songs have a higher chance of gaining more attention and can reach the majority of the audience.	
+   
+	5. Music has become more energetic and loud over time.		
+ 
+	6. Electronic instruments are mostly used in the songs than the acoustic instruments.
+ 
+	7. The song positivity (song valence) is decreasing from the decade 1980s.
+ 
+	8. The speechiness attribute of the songs is increasing in the last 20 years and this indicates the rise in the number of audio podcasts in the Spotify platform.
+ 
+	9. A common pattern observed in the top 1000 popular songs released in the years 2000-2021 : high energy, danceability,loudness , less speechiness, liveness, acousticness and neutral valence score.
 
 Hypothesis testing was conducted and the below conclusion were drawn:
 	One sample t-test conclusions:
 	■ The mean tempo level of the songs is not equal to 120 Beats per minute. 
+ 
 	Two sample t-test conclusions:
 	The mean tempo levels of the songs vary in major mode songs and minor mode songs. The tempo level of the major mode songs is found to be slightly greater than the tempo level of the minor mode songs.
 	Songs in major mode do sound much happier than the songs in minor mode.This can be attributed to the fact that the songs played in major mode are usually happier,merrier, cheerful tunes and hence a slight increase in valence level can be observed. 
