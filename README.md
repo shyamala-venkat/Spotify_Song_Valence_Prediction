@@ -22,7 +22,8 @@ The below insights were generated after analyzing the Spotify dataset:
  
  	3. The average duration or length of the songs is expected to approach below 3.5 mins as there is a downward trend observed in the last 20 years 2000-2021.
   
-  	4. Most popular songs are slightly shorter in duration than the least popular songs. This highlights a fact that the attention span of the average music consumer is falling and it 	suggests that shorter songs have a higher chance of gaining more attention and can reach the majority of the audience.	
+  	4. Most popular songs are slightly shorter in duration than the least popular songs. This highlights a fact that the attention span of the audience is falling 
+   	  and it suggests that shorter songs have a higher chance of gaining more attention and can reach the majority of the audience.	
    
 	5. Music has become more energetic and loud over time.		
  
